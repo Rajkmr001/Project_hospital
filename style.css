@@ -52,3 +52,42 @@ body {
 .liked {
     color: red;
 }
+
+section {
+    padding: 50px 0;
+}
+
+h1, h3 {
+    color: #009c1a;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.call-tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+.call-tab:hover {
+    background-color: #218838;
+}
+.call-icon {
+    margin-right: 10px;
+    animation: shake 1s infinite;
+}
+@keyframes shake {
+    0%, 100% { transform: rotate(0); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+}
